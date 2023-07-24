@@ -1,0 +1,70 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    font-family: sans-serif;
+}
+.signup{
+    width: 360px;
+    height: 800px;
+    margin : auto;
+    background: wheat;
+    border-radius: 5px;
+}
+.login{
+    width: 360px;
+    height: 400px;
+    margin : auto;
+    margin-top: 10%;
+    background: wheat;
+    border-radius: 5px; 
+}
+h2{
+  text-align: center;
+  padding-top: 20px;
+}
+h5{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid blue;
+    outline: none;
+    background: transparent;
+}
+
+#submit-btn{
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 25px;
+    margin-left: 5px;
+    background-color: orange;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
